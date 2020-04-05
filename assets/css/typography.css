@@ -1,0 +1,82 @@
+/* GT Walsheim */
+@font-face {
+    font-family: 'GTWalsheim';
+    src: url('~assets/fonts/GT Walsheim Ultra Light.eot');
+    src: url('~assets/fonts/GT Walsheim Ultra Light.eot?#iefix')
+        format('embedded-opentype'),
+      url('~assets/fonts/GT Walsheim Ultra Light.woff') format('woff');
+      font-weight: 100;
+}
+
+@font-face {
+    font-family: 'GTWalsheim';
+    src: url('~assets/fonts/GT Walsheim Thin.eot');
+    src: url('~assets/fonts/GT Walsheim Thin.eot?#iefix')
+        format('embedded-opentype'),
+      url('~assets/fonts/GT Walsheim Thin.woff') format('woff');
+      font-weight: 200;
+}
+
+@font-face {
+    font-family: 'GTWalsheim';
+    src: url('~assets/fonts/GT Walsheim Light.eot');
+    src: url('~assets/fonts/GT Walsheim Light.eot?#iefix')
+        format('embedded-opentype'),
+      url('~assets/fonts/GT Walsheim Light.woff') format('woff');
+      font-weight: 300;
+}
+
+@font-face {
+    font-family: 'GTWalsheim';
+    src: url('~assets/fonts/GT Walsheim Regular.eot');
+    src: url('~assets/fonts/GT Walsheim Regular.eot?#iefix')
+        format('embedded-opentype'),
+      url('~assets/fonts/GT Walsheim Regular.woff') format('woff');
+      font-weight: normal; /* 500 */
+}
+
+@font-face {
+    font-family: 'GTWalsheim';
+    src: url('~assets/fonts/GT Walsheim Medium.eot');
+    src: url('~assets/fonts/GT Walsheim Medium.eot?#iefix')
+        format('embedded-opentype'),
+      url('~assets/fonts/GT Walsheim Medium.woff') format('woff');
+      font-weight: 600;
+}
+
+@font-face {
+    font-family: 'GTWalsheim';
+    src: url('~assets/fonts/GT Walsheim Bold.eot');
+    src: url('~assets/fonts/GT Walsheim Bold.eot?#iefix')
+        format('embedded-opentype'),
+      url('~assets/fonts/GT Walsheim Bold.woff') format('woff');
+      font-weight: bold; /* 700 */
+}
+
+@font-face {
+    font-family: 'GTWalsheim';
+    src: url('~assets/fonts/GT Walsheim Black.eot');
+    src: url('~assets/fonts/GT Walsheim Black.eot?#iefix')
+        format('embedded-opentype'),
+      url('~assets/fonts/GT Walsheim Black.woff') format('woff');
+      font-weight: 800;
+}
+
+@font-face {
+    font-family: 'GTWalsheim';
+    src: url('~assets/fonts/GT Walsheim Ultra Bold.eot');
+    src: url('~assets/fonts/GT Walsheim Ultra Bold.eot?#iefix')
+        format('embedded-opentype'),
+      url('~assets/fonts/GT Walsheim Ultra Bold.woff') format('woff');
+      font-weight: 900;
+}
+
+/* Base Font */
+body {
+    font: normal normal 16px/1.4 'GTWalsheim';
+    color: rbga(0,0,0, 1);
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+  }
