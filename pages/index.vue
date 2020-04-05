@@ -1,7 +1,9 @@
 <template>
   <main>
     <v-header />
+
     <splash />
+
     <v-footer />
   </main>
 </template>
