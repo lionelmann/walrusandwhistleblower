@@ -37,6 +37,7 @@ h1 {
   font-weight: 900;
   text-transform: uppercase;
   margin-bottom: 1rem;
+  text-shadow: -1px 0 #c5c0c0, 0 1px #c5c0c0, 1px 0 #c5c0c0, 0 -1px #c5c0c0;
 }
 
 h1 span {
