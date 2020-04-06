@@ -7,11 +7,26 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: pkg.name,
+    title: 'The Walrus and the Whistleblower',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description }
+      { hid: 'description', name: 'description', content: "A film about a whistleblower is sued for $1.5 million for plotting to steal a walrus" },
+      { hid: 'twitter:card', name: 'twitter:card', content: "summary" },
+      { hid: 'twitter:site', name: 'twitter:site', content: "A film about a whistleblower is sued for $1.5 million for plotting to steal a walrus" },
+      { hid: 'twitter:title', name: 'twitter:title', content: "The Walrus and the Whistleblower" },
+      { hid: 'twitter:description', name: 'twitter:description', content: "A film about a whistleblower is sued for $1.5 million for plotting to steal a walrus" },
+      { hid: 'twitter:creator', name: 'twitter:creator', content: "A film about a whistleblower is sued for $1.5 million for plotting to steal a walrus" },
+      { hid: 'twitter:image', name: 'twitter:image', content: "A film about a whistleblower is sued for $1.5 million for plotting to steal a walrus" },
+      { hid: 'og:title', name: 'og:title', content: "The Walrus and the Whistleblower" },
+      { hid: 'og:type', name: 'og:type', content: "Website" },
+      { hid: 'og:url', name: 'og:url', content: "https://walrusandwhistleblower.com/" },
+      { hid: 'og:image', name: 'og:image', content: "" },
+      { hid: 'og:image:width', name: 'og:image:width', content: '1200' },
+      { hid: 'og:image:height', name: 'og:image:height', content: '630' },
+      { hid: 'og:description', name: 'og:description', content: "A film about a whistleblower is sued for $1.5 million for plotting to steal a walrus" },
+      { hid: 'og:site_name', name: 'og:site_name', content: "" },
+
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
