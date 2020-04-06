@@ -69,24 +69,24 @@ h3 {
 
 @media screen and (min-width: 620px) {
   h1 {
-    font-size: 4.5rem;
+    font-size: 5rem;
     line-height: 1;
   }
 
   h1 span {
     font-size: 2.2rem;
-    margin-bottom: -65px;
+    margin-bottom: -70px;
   }
 
   h3 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     letter-spacing: 1.1px;
   }
 }
 
 @media screen and (min-width: 1620px) {
   h1 {
-    font-size: 7.5rem;
+    font-size: 8rem;
     line-height: 1;
   }
 
