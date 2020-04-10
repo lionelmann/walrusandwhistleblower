@@ -1,22 +1,26 @@
 <template>
-  <main>
-    <v-header />
-
-    <splash />
-
-    <v-footer />
-  </main>
+  <div>
+    <Splash />
+    <Phil />
+    <Statement />
+    <Bios />
+    <Credits />
+  </div>
 </template>
 
 <script>
-import TheHeader from "@/components/TheHeader.vue";
 import Splash from "@/components/Splash.vue";
-import TheFooter from "@/components/TheFooter.vue";
+import Bios from "@/components/Bios.vue";
+import Credits from "@/components/TheCredits.vue";
+import Phil from "@/components/AboutPhil.vue";
+import Statement from "@/components/DirectorStatement.vue";
 export default {
   components: {
-    "v-footer": TheFooter,
-    "v-header": TheHeader,
-    Splash
+    Splash,
+    Bios,
+    Credits,
+    Phil,
+    Statement
   }
 };
 </script>

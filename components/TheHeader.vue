@@ -1,14 +1,18 @@
 <template>
-  <header>
-    <img class="hd20" src="~assets/laurel.svg" alt />
-    <div>
+  <section>
+    <header class="container">
       <p>
-        Site
-        <br />Coming
-        <br />soon
+        <span class="uc">Bunbury Films Presents</span>
+        <span class="lc">in assocation with</span>
+        <em>
+          <b>documentary</b>
+        </em>
+        <b>Channel</b>
+        <span class="lc">and</span>
+        <b>CBC Docs</b>
       </p>
-    </div>
-  </header>
+    </header>
+  </section>
 </template>
 
 <script>
@@ -16,65 +20,38 @@ export default {};
 </script>
 
 <style scoped>
+section {
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  width: 100%;
+}
+
 header {
   display: flex;
   padding: 1rem 1rem 0 1rem;
 }
 
-header div {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
-  height: 60px;
-  border-radius: 50%;
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
 header p {
-  line-height: 1;
-  text-align: center;
-  transform: rotate(10deg);
-  padding: 0.5rem;
   color: white;
-  font-size: 0.7rem;
-  text-transform: uppercase;
+  font-size: 1rem;
 }
 
-.hd20 {
-  width: auto;
-  height: 70px;
-  padding: 0;
-  margin: 0;
-  display: block;
+.uc {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.lc {
+  text-transform: lowercase;
+  font-size: 0.8rem;
 }
 
 /* Tablet and Desktop */
 
 @media screen and (min-width: 620px) {
-  .hd20 {
-    width: auto;
-    height: 100px;
-    padding: 0;
-    margin: 0;
-    display: block;
-  }
-
-  header div {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-    height: 90px;
-    border-radius: 50%;
-    background-color: rgba(0, 0, 0, 0.8);
-  }
-  header p {
-    line-height: 1;
-    text-align: center;
-    transform: rotate(10deg);
-    padding: 0.8rem;
-    color: white;
-    font-size: 1rem;
-    text-transform: uppercase;
-  }
 }
 </style>

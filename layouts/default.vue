@@ -1,23 +1,31 @@
 <template>
-  <div class="bg">
-    <nuxt />
-  </div>
+  <transition>
+    <main>
+      <v-header />
+      <nuxt />
+      <v-footer />
+    </main>
+  </transition>
 </template>
 
+<script>
+import TheHeader from "@/components/TheHeader.vue";
+import TheFooter from "@/components/TheFooter.vue";
+export default {
+  components: {
+    "v-footer": TheFooter,
+    "v-header": TheHeader
+  }
+};
+</script>
+
 <style>
+/* Base Styles */
 body,
 html {
   height: 100%;
   margin: 0;
   padding: 0;
-}
-
-.bg {
-  background: url("~assets/bg_water.jpg");
-  height: 100vh;
-  width: 100%;
-  background-position: center;
-  background-size: cover;
 }
 
 img {
@@ -28,5 +36,9 @@ img {
 *:after {
   box-sizing: border-box;
   margin: 0;
+}
+
+p {
+  margin-bottom: 10px;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="main">
+  <section class="main">
     <transition name="fade" appear>
       <h1>
         <span>The</span>
@@ -14,7 +14,12 @@
     <transition name="fade" appear>
       <h3>A Film By Nathalie Bibeau</h3>
     </transition>
-  </div>
+    <button class="button">Watch Trailer</button>
+    <div class="laurels">
+      <img class="hd20" src="~assets/images/laurel.svg" alt />
+      <img class="hd20" src="~assets/images/laurel.svg" alt />
+    </div>
+  </section>
 </template>
 
 <script>
@@ -22,6 +27,14 @@ export default {};
 </script>
 
 <style scoped>
+section {
+  background: url("~assets/images/bg_pool.webp");
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
 .main {
   display: flex;
   align-items: center;
@@ -33,11 +46,12 @@ export default {};
 h1 {
   font-size: 3rem;
   line-height: 1;
-  color: rgba(50, 118, 134, 1);
+  /*color: rgba(50, 118, 134, 1);*/
+  color: white;
   font-weight: 900;
   text-transform: uppercase;
   margin-bottom: 1rem;
-  text-shadow: -1px 0 #c5c0c0, 0 1px #c5c0c0, 1px 0 #c5c0c0, 0 -1px #c5c0c0;
+  /*text-shadow: -1px 0 #c5c0c0, 0 1px #c5c0c0, 1px 0 #c5c0c0, 0 -1px #c5c0c0;*/
 }
 
 h1 span {
@@ -50,9 +64,36 @@ h1 span {
 h3 {
   color: white;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 300;
   font-size: 1.2rem;
   letter-spacing: 1.1px;
+}
+
+.button {
+  margin: 2rem;
+  padding: 0.5rem 1rem;
+  font: normal 700 1rem/1.5 "GTWalsheim";
+  background: none;
+  color: white;
+  border: 3px solid white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.hd20 {
+  width: auto;
+  height: 70px;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.laurels {
+  display: flex;
+}
+
+.laurels img {
+  margin: 0 1rem;
 }
 
 /* ----------------------------------------------
@@ -95,13 +136,15 @@ h3 {
 
 @media screen and (min-width: 620px) {
   h1 {
-    font-size: 5rem;
+    font-size: 5.5rem;
     line-height: 1;
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.4);
   }
 
   h1 span {
-    font-size: 2.2rem;
-    margin-bottom: -70px;
+    font-size: 1.3rem;
+    margin-bottom: -80px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
   }
 
   h3 {
