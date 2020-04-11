@@ -41,4 +41,8 @@ img {
 p {
   margin-bottom: 10px;
 }
+
+:focus {
+  outline: none;
+}
 </style>

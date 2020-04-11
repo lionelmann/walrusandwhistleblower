@@ -61,7 +61,6 @@ blockquote p {
   font-weight: 100;
   font-size: 2.5rem;
   line-height: 1;
-  margin-bottom: 40px;
 }
 
 blockquote p em {

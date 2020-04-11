@@ -14,7 +14,7 @@
       <b>Christian Bielz</b></li>
       <li>Editor<br />
       <b>Vincent Guignard</b></li>
-      <li>Story Editor<br />
+      <li>Story Consultant<br />
       <b>Christina Clark</b></li>
       <li>Sound recording<br />
       <b>Tod Van Dyk</b></li>
