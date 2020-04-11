@@ -1,6 +1,7 @@
 <template>
   <div>
-    <Splash />
+    <SplashFull />
+    <!--<Splash />-->
     <Phil />
     <Statement />
     <Bios />
@@ -9,6 +10,7 @@
 </template>
 
 <script>
+import SplashFull from "@/components/SplashFull.vue";
 import Splash from "@/components/Splash.vue";
 import Bios from "@/components/Bios.vue";
 import Credits from "@/components/TheCredits.vue";
@@ -17,6 +19,7 @@ import Statement from "@/components/DirectorStatement.vue";
 export default {
   components: {
     Splash,
+    SplashFull,
     Bios,
     Credits,
     Phil,

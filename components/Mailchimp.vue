@@ -56,10 +56,12 @@ export default {};
 <style scoped>
 #mc_embed_signup_scroll {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 30px 0;
 }
+
 input[type="email"],
 input[type="submit"] {
   border: 2px solid rgba(255, 213, 28, 0.7);
@@ -69,6 +71,8 @@ input[type="submit"] {
   padding: 0 20px;
   line-height: 48px;
   font-size: 1.2rem;
+  width: 300px;
+  transition: border 0.3s;
 }
 
 input[type="email"]:focus {
@@ -76,12 +80,12 @@ input[type="email"]:focus {
 }
 
 input[type="submit"] {
-  margin-left: 4px;
   text-transform: uppercase;
   font-weight: 600;
   cursor: pointer;
   border: 2px solid rgba(255, 213, 28, 1);
   transition: background 0.3s;
+  margin: 5px 0px 0 0;
 }
 
 input[type="submit"]:hover {
@@ -110,5 +114,29 @@ h4 {
 p {
   color: rgba(255, 213, 28, 1);
   font-size: 1.1rem;
+}
+
+@media screen and (min-width: 1020px) {
+  #mc_embed_signup_scroll {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+  }
+
+  input[type="email"],
+  input[type="submit"] {
+    border: 2px solid rgba(255, 213, 28, 0.7);
+    background: transparent;
+    color: #ffd51c;
+    height: 50px;
+    padding: 0 20px;
+    line-height: 48px;
+    font-size: 1.2rem;
+    transition: border 0.3s;
+    margin: 0 5px 0 0;
+    width: auto;
+  }
 }
 </style>

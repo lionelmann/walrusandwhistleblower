@@ -28,9 +28,11 @@ footer {
 }
 
 section {
+  max-width: 1366px;
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 30px;
   text-align: center;
+  margin: 0 auto;
 }
 </style>

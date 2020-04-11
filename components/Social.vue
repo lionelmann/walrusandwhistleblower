@@ -1,13 +1,13 @@
 <template>
   <section>
     <div>
-      <a href="https://google.ca">
+      <a href="https://www.facebook.com/wwbdoc" target="_blank">
         <font-awesome-icon :icon="['fab', 'facebook']" />
       </a>
-      <a href="https://google.ca">
+      <a href="https://twitter.com/wwbdoc" target="_blank">
         <font-awesome-icon :icon="['fab', 'twitter']" />
       </a>
-      <a href="https://google.ca">
+      <a href="https://www.instagram.com/wwbdoc/" target="_blank">
         <font-awesome-icon :icon="['fab', 'instagram']" />
       </a>
     </div>

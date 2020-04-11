@@ -1,7 +1,8 @@
 <template>
   <transition>
     <main>
-      <v-header />
+      <v-headerfull />
+      <!--<v-header />-->
       <nuxt />
       <v-footer />
     </main>
@@ -9,11 +10,13 @@
 </template>
 
 <script>
+import TheHeaderFull from "@/components/TheHeaderFull.vue";
 import TheHeader from "@/components/TheHeader.vue";
 import TheFooter from "@/components/TheFooter.vue";
 export default {
   components: {
     "v-footer": TheFooter,
+    "v-headerfull": TheHeaderFull,
     "v-header": TheHeader
   }
 };

@@ -19,6 +19,9 @@
       <a href="#">
         <img src="~assets/images/logo_bunbury.jpg" alt />
       </a>
+      <div class="badge">
+        <div id="wcb" class="wcb carbonbadge"></div>
+      </div>
     </div>
   </div>
 </template>
@@ -30,9 +33,13 @@ export default {};
 <style scoped>
 .grid {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+}
+
+.badge {
+  display: flex;
+  margin: 20px auto;
 }
 
 img {
@@ -45,5 +52,29 @@ img {
 
 img:hover {
   opacity: 1;
+}
+
+@media screen and (min-width: 1020px) {
+  .grid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  img {
+    width: auto;
+    height: 2rem;
+    margin: 1rem;
+    opacity: 0.7;
+    filter: grayscale(100%);
+    transition: opacity 0.3s;
+  }
+
+  .badge {
+    display: flex;
+    margin: 0;
+    margin-left: auto;
+    filter: grayscale(100%);
+  }
 }
 </style>

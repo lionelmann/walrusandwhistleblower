@@ -30,7 +30,10 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+    script: [
+      { src: 'https://unpkg.com/website-carbon-badges@^1/b.min.js', defer: true, body: true },
+    ],
   },
 
   /*
