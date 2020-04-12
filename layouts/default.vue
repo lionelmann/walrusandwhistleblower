@@ -45,4 +45,32 @@ p {
 :focus {
   outline: none;
 }
+
+h1 {
+  font-size: 5.202rem;
+}
+
+h2 {
+  font-size: 3.653rem;
+}
+
+h3 {
+  font-size: 1.602rem;
+}
+
+h4 {
+  font-size: 1.266rem;
+}
+
+h5 {
+  font-size: 1.125rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+small {
+  font-size: 0.889rem;
+}
 </style>

@@ -3,7 +3,7 @@
     <Splash />
     <Phil />
     <Statement />
-    <!--<Bios />-->
+    <Bios />
     <Credits />
   </div>
 </template>
@@ -24,12 +24,3 @@ export default {
   }
 };
 </script>
-
-<style scoped>
-main {
-  min-height: 100%;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  grid-template-columns: 100%;
-}
-</style>

@@ -30,7 +30,7 @@ export default {};
 section {
   background-color: #632b30;
   background-color: rgb(49, 118, 134);
-  padding: 5rem 3rem;
+  padding: 3rem 3rem 5rem 3rem;
 }
 
 p {
@@ -59,7 +59,7 @@ h2 {
   color: #ffd51c;
   font-size: 2.5rem;
   line-height: 1.2;
-  margin-bottom: 20px;
+  margin-bottom: 2.5rem;
   text-align: center;
   text-transform: uppercase;
   text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.31);

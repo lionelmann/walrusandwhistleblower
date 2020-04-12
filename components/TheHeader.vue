@@ -24,6 +24,7 @@ export default {};
 </script>
 
 <style scoped>
+/* Mobile First */
 section {
   position: relative;
 }
@@ -34,19 +35,10 @@ section {
 }
 
 header {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  align-items: top;
-  padding: 1.5rem 2.5rem;
-}
-
-header .presents {
-  grid-column: 1;
-}
-
-header .association {
-  grid-column: 3;
+  padding: 1rem 0rem;
 }
 
 header p {
@@ -57,7 +49,7 @@ header p {
 .uc {
   text-transform: uppercase;
   font-weight: 200;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .lc {
@@ -69,5 +61,20 @@ header p {
 /* Tablet and Desktop */
 
 @media screen and (min-width: 620px) {
+  header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    align-items: top;
+    padding: 1.5rem 2.5rem;
+  }
+
+  header .presents {
+    grid-column: 1;
+  }
+
+  header .association {
+    grid-column: 3;
+  }
 }
 </style>

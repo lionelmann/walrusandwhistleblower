@@ -32,7 +32,7 @@
         <b>May 28, 2020, 8pm</b>
         <br />CBC Television and CBC Gem
       </p>
-      <img class="hd20" src="~assets/images/laurel.svg" alt />
+      <img src="~assets/images/laurel.svg" alt />
       <!--<img class="hd20" src="~assets/images/laurel.svg" alt />-->
     </div>
   </section>
@@ -53,12 +53,14 @@ export default {
 </script>
 
 <style scoped>
+/* Mobile First */
+
 section {
   background: url("~assets/images/bg_pool_full.jpg");
-  height: 100vh;
-  width: 100%;
   background-position: center;
   background-size: cover;
+  height: 100vh;
+  width: 100%;
 }
 
 .main {
@@ -66,63 +68,54 @@ section {
   grid-template-columns: 1fr;
   align-items: center;
   text-align: center;
-  padding: 2.5rem;
+  padding: 7rem 0 0 0;
 }
 
 h1 {
+  color: rgba(50, 118, 134, 1);
   font-size: 3rem;
   line-height: 1;
-  color: rgba(50, 118, 134, 1);
   font-weight: 900;
   text-transform: uppercase;
-  margin-bottom: 1rem;
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 h1 span {
+  font-size: 1rem;
   font-weight: 300;
-  font-size: 1.6rem;
   display: block;
   margin-bottom: -45px;
 }
 
 h3 {
-  color: white;
-  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
+  font-size: 1rem;
   font-weight: 500;
-  font-size: 1.2rem;
-  letter-spacing: 1.1px;
+  text-transform: uppercase;
   text-align: center;
 }
 
 .button {
-  margin: 2rem;
-  padding: 0.5rem 1rem;
-  font: normal 700 1rem/1.5 "GTWalsheim";
-  background: none;
   color: white;
-  border: 2px solid white;
-  text-transform: uppercase;
   cursor: pointer;
+  background: none;
+  border: 2px solid rgba(255, 255, 255, 1);
+  font: normal 700 1rem/1.5 "GTWalsheim";
+  margin: 1rem 0 0 0;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
   transition: background 0.3s;
 }
 
 .button:hover {
-  background: rgba(255, 213, 28, 1);
   color: rgba(49, 118, 134, 1);
+  background: rgba(255, 213, 28, 1);
 }
 
 .button:active {
+  color: rgba(255, 255, 255, 1);
   background: rgba(49, 118, 134, 1);
-  color: white;
-}
-
-.hd20 {
-  width: auto;
-  height: 100px;
-  padding: 0;
-  margin: 0;
-  display: block;
 }
 
 .laurels {
@@ -131,13 +124,16 @@ h3 {
 }
 
 .laurels img {
-  margin: 0 1rem;
+  display: block;
+  padding: 0;
+  margin: 1rem 0 0 0;
+  width: auto;
+  height: 40px;
 }
 
 .laurels p {
-  color: white;
-  margin: 40px;
-  font-size: 1.266rem;
+  color: rgba(255, 255, 255, 1);
+  font-size: 1rem;
 }
 
 @-webkit-keyframes text-shadow-pop-br {
@@ -172,12 +168,9 @@ h3 {
   animation: text-shadow-pop-br 4s both;
 }
 
-@media screen and (min-width: 620px) {
+@media screen and (min-width: 770px) {
   .main {
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    text-align: center;
     padding: 2.5rem;
   }
 
@@ -202,6 +195,17 @@ h3 {
 
   h3 {
     font-size: 1.602rem;
+  }
+
+  .laurels img {
+    margin: 1rem 0 0 0;
+    width: auto;
+    height: 100px;
+  }
+
+  .laurels p {
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.2rem;
   }
 }
 

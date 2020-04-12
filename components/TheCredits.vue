@@ -1,35 +1,76 @@
 <template>
   <section>
     <div>
-    <h2>Credits</h2>
-    <ul>
-      <li>
-        Writer, Directer and Producer
-        <br /><b>Nathalie Bibeau</b>
-      </li>
-      <li>
-        Producer
-        <br /><b>Frederic Bohbot</b>
-      </li>Cinematographer<br>
-      <b>Christian Bielz</b></li>
-      <li>Editor<br />
-      <b>Vincent Guignard</b></li>
-      <li>Story Consultant<br />
-      <b>Christina Clark</b></li>
-      <li>Sound recording<br />
-      <b>Tod Van Dyk</b></li>
-      <li>Original Score<br />
-      <b>Anaïs Larocque</b></li>
-      <li>With Music By<br />
-      <b>Patrick Watson</b></li>
-     <li> Sound Design<br />
-      <b>Chris Leon</b></li>
-      <li>Featuring<br />
-      <b>Phil Demers</b></li>
-      <li>CBC Production Executive, documentary Channel<br> <b>Jordana Ross</b></li>
-      <li>CBC Production Executive, The Nature of Things<br> <b>Sue Dando</b></li>
-    </ul>
+      <h2>Credits</h2>
+      <ul>
+        <li>
+          Writer, Directer and Producer
+          <br />
+          <b>Nathalie Bibeau</b>
+        </li>
+        <li>
+          Producer
+          <br />
+          <b>Frederic Bohbot</b>
+        </li>
+        <li>
+          Cinematographer
+          <br />
+          <b>Christian Bielz</b>
+        </li>
+        <li>
+          Editor
+          <br />
+          <b>Vincent Guignard</b>
+        </li>
+        <li>
+          Story Consultant
+          <br />
+          <b>Christina Clark</b>
+        </li>
+        <li>
+          Sound recording
+          <br />
+          <b>Tod Van Dyk</b>
+        </li>
+        <li>
+          Original Score
+          <br />
+          <b>Anaïs Larocque</b>
+        </li>
+        <li>
+          With Music By
+          <br />
+          <b>Patrick Watson</b>
+        </li>
+        <li>
+          Sound Design
+          <br />
+          <b>Chris Leon</b>
+        </li>
+        <li>
+          Featuring
+          <br />
+          <b>Phil Demers</b>
+        </li>
+        <li>
+          Clutch, PR
+          <br />
+          <b>Daniela Kelloway</b>
+        </li>
+        <li>
+          CBC Production Executive, documentary Channel
+          <br />
+          <b>Jordana Ross</b>
+        </li>
+        <li>
+          CBC Production Executive, The Nature of Things
+          <br />
+          <b>Sue Dando</b>
+        </li>
+      </ul>
     </div>
+    <div class="bg"></div>
   </section>
 </template>
 
@@ -39,10 +80,14 @@ export default {};
 
 <style scoped>
 section {
-  display: grid;
-  grid-template-columns: 1fr;
-  padding: 3rem;
+  padding-top: 3rem;
+}
 
+.bg {
+  background: url("~assets/images/bg_credit.jpg") no-repeat;
+  background-position: 50 100;
+  background-size: cover;
+  min-height: 450px;
 }
 
 h2 {
@@ -52,18 +97,16 @@ h2 {
 }
 
 div {
-   margin: 0 auto;
-   text-align: center;
+  margin: 0 auto;
+  text-align: center;
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
-   
-   
+  list-style-type: none;
+  padding: 0;
 }
 
 li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 </style>
