@@ -3,7 +3,7 @@
     <Splash />
     <Phil />
     <Statement />
-    <Bios />
+    <!--<Bios />-->
     <Credits />
   </div>
 </template>

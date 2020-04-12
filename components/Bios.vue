@@ -11,12 +11,12 @@
             The Walrus and the Whistleblower is her first feature film. She went back to the rust belt to make it.
           </p>
         </div>
-        <div class="content">
+        <!-- <div class="content">
           <h3>Frederic Bohbot</h3>
           <small>Producer, BUNBURY FILMS</small>
           <p>Executive Producer of the 2014 Academy Award-winning short documentary The Lady in Number 6, Frederic Bohbot founded Bunbury Films in 2002 as an independent producer / director intending only to make one film: Once a Nazi… completed in 2006. With much critical success, Bunbury expanded its production slate and has since produced fifteen documentaries covering history, art, sports, environment, religion and spirituality for television and theatrical audiences throughout the world. Bunbury’s first feature fiction entitled Boost received 5 Canadian Screen Award nominations winning the Best Actor award as well as 8 Quebec Cinema Award nominations.</p>
         </div>
-        <div class="bg-fred"></div>
+        <div class="bg-fred"></div>-->
       </div>
     </div>
   </div>
@@ -40,13 +40,6 @@ export default {};
   background-color: #ffd621;
 }
 
-img {
-  width: 100%;
-  display: block;
-  object-fit: cover;
-  object-position: 0 0;
-}
-
 .content {
   display: flex;
   flex-direction: column;
@@ -67,18 +60,19 @@ small {
 h3 {
   font-size: 2rem;
 }
+
 .bg-nat {
   background: url("~assets/images/bio_nat.jpg") no-repeat;
   background-size: cover;
   background-position: 50% 0%;
-  min-height: 600px;
+  min-height: 500px;
 }
 
 .bg-fred {
   background: url("~assets/images/bio_fred.jpg") no-repeat;
   background-size: cover;
   background-position: 50% 0%;
-  min-height: 600px;
+  min-height: 500px;
 }
 
 @media screen and (min-width: 620px) {

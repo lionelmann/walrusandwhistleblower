@@ -13,7 +13,15 @@
       <button class="button" @click="showModal = true">Watch Trailer</button>
       <modal v-if="showModal" @close="showModal = false">
         <div slot="body">
-          <vimeo-player ref="player" :video-url="videoUrl" :player-width="width"></vimeo-player>
+          <div style="padding:56.25% 0 0 0;position:relative;">
+            <iframe
+              src="https://player.vimeo.com/video/395205887?title=0&byline=0&portrait=0"
+              style="position:absolute;top:0;left:0;width:100%;height:100%;"
+              frameborder="0"
+              allow="autoplay; fullscreen"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
       </modal>
     </div>
@@ -38,24 +46,8 @@ export default {
   },
   data() {
     return {
-      showModal: false,
-      videoUrl: "https://vimeo.com/395205887/1a77806cc0",
-      videoID: "some-id",
-      width: 600,
-      options: {},
-      playerReady: false
+      showModal: false
     };
-  },
-  methods: {
-    onReady() {
-      this.playerReady = true;
-    },
-    play() {
-      this.$refs.player.play();
-    },
-    pause() {
-      this.$refs.player.pause();
-    }
   }
 };
 </script>
@@ -150,24 +142,26 @@ h3 {
 
 @-webkit-keyframes text-shadow-pop-br {
   0% {
-    text-shadow: 0 0 #fff, 0 0 #fff;
+    text-shadow: 0 0 rgba(255, 255, 255, 0.6), 0 0 rgba(255, 255, 255, 0.6);
     -webkit-transform: translateX(0) translateY(0);
     transform: translateX(0) translateY(0);
   }
   100% {
-    text-shadow: 1px 1px #fff, 2px 2px #fff;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.5),
+      2px 2px rgba(255, 255, 255, 0.6);
     -webkit-transform: translateX(-2px) translateY(-2px);
     transform: translateX(-1px) translateY(-1px);
   }
 }
 @keyframes text-shadow-pop-br {
   0% {
-    text-shadow: 0 0 #fff, 0 0 #fff;
+    text-shadow: 0 0 rgba(255, 255, 255, 0.6), 0 0 rgba(255, 255, 255, 0.6);
     -webkit-transform: translateX(0) translateY(0);
     transform: translateX(0) translateY(0);
   }
   100% {
-    text-shadow: 1px 1px #fff, 2px 2px #fff;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.6),
+      2px 2px rgba(255, 255, 255, 0.6);
     -webkit-transform: translateX(-2px) translateY(-2px);
     transform: translateX(-2px) translateY(-2px);
   }

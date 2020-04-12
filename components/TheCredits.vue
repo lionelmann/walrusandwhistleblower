@@ -24,7 +24,7 @@
       <b>Patrick Watson</b></li>
      <li> Sound Design<br />
       <b>Chris Leon</b></li>
-      <li>Main character<br />
+      <li>Featuring<br />
       <b>Phil Demers</b></li>
       <li>CBC Production Executive, documentary Channel<br> <b>Jordana Ross</b></li>
       <li>CBC Production Executive, The Nature of Things<br> <b>Sue Dando</b></li>

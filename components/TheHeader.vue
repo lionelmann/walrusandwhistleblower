@@ -6,13 +6,13 @@
       </p>
 
       <p class="association">
-        <span class="lc">in association with</span>
+        <span class="uc">in association with</span>
         <br />
         <em>
           <b>documentary</b>
         </em>
         <b>Channel</b>
-        <span class="lc">and</span>
+        <span class="lc">&</span>
         <b>CBC Docs</b>
       </p>
     </header>
@@ -37,8 +37,8 @@ header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   text-align: center;
-  align-items: center;
-  padding: 1rem 2.5rem;
+  align-items: top;
+  padding: 1.5rem 2.5rem;
 }
 
 header .presents {

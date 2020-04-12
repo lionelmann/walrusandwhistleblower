@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h4>Subscribe</h4>
+    <!--<h4>Subscribe</h4>-->
     <p>Sign up with your email address to receive news and updates.</p>
     <!-- Begin Mailchimp Signup Form -->
     <div id="mc_embed_signup">
@@ -14,7 +14,7 @@
         novalidate
       >
         <div id="mc_embed_signup_scroll">
-          <div class="mc-field-group">
+          <!--<div class="mc-field-group">
             <input
               type="email"
               value
@@ -23,7 +23,7 @@
               id="mce-EMAIL"
               placeholder="Your email"
             />
-          </div>
+          </div>-->
           <div id="mce-responses" class="clear">
             <div class="response" id="mce-error-response" style="display:none"></div>
             <div class="response" id="mce-success-response" style="display:none"></div>

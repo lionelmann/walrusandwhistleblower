@@ -33,6 +33,7 @@ export default {
     ],
     script: [
       { src: 'https://unpkg.com/website-carbon-badges@^1/b.min.js', defer: true, body: true },
+      { src: 'https://player.vimeo.com/api/player.js' }
     ],
   },
 
@@ -52,7 +53,6 @@ export default {
   */
   plugins: [
     { src: '~plugins/ga.js', mode: 'client' },
-    { src: `~plugins/vimeo-player`, ssr: false }
   ],
 
   /*
@@ -89,9 +89,6 @@ export default {
     /*
     ** You can extend webpack config here
     */
-    vendor: [
-      'vue-vimeo-player'
-    ],
     extend(config, ctx) {
     }
   }

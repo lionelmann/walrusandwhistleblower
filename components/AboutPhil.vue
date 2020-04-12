@@ -4,10 +4,10 @@
       <div class="quote"></div>
       <div class="content">
         <p>
-          <b>Phil Demers is an over 40-year-old part-time mailman</b> who lives in a bungalow across the creek from MarineLand, the iconic amusement park in Niagara Falls, where he had his dream job as an animal trainer for over a decade. He swam with killer whales and ran the show, until he quit and blew the whistle, making claims of animal abuse and calling for an end to the near 60-year-old practice of keeping marine mammals in pools.
+          <b>Phil Demers is a part-time mailman who lives in a bungalow across the creek from MarineLand</b>, the iconic amusement park in Niagara Falls, where he had his dream job as an animal trainer for over a decade. He swam with killer whales and ran the show, until he quit and blew the whistle, making claims of animal abuse and calling for an end to the near 60-year-old practice of keeping marine mammals in pools.
         </p>
         <blockquote>
-          <p>It's an old idea in crises.</p>
+          <p>It's an old idea in crisis.</p>
         </blockquote>
         <p>Known in the media as the @walruswhisperer, Phil has amassed 27,000 followers on Twitter, has appeared four times on the Joe Rogan show, has testified before the Canadian Senate, and is being sued for $1.5 million for plotting to steal Smooshi, the walrus.</p>
 
@@ -61,6 +61,7 @@ blockquote p {
   font-weight: 100;
   font-size: 2.5rem;
   line-height: 1;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.31);
 }
 
 blockquote p em {
