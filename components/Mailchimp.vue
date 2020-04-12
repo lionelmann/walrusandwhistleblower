@@ -71,7 +71,7 @@ input[type="submit"] {
   padding: 0 20px;
   line-height: 48px;
   font-size: 1.2rem;
-  width: 300px;
+  width: 250px;
   transition: border 0.3s;
 }
 

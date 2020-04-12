@@ -57,7 +57,7 @@ article {
 }
 
 blockquote p {
-  margin: 2rem 2rem 2rem -4rem;
+  margin: 2rem;
   font-weight: 100;
   font-size: 2.5rem;
   line-height: 1;
@@ -73,5 +73,16 @@ blockquote p:after {
   font-size: 1rem;
   text-indent: 2rem;
   padding: 0.5rem;
+}
+
+/* Tablet and Desktop */
+
+@media screen and (min-width: 620px) {
+  blockquote p {
+    margin: 2rem 2rem 2rem -4rem;
+    font-weight: 100;
+    font-size: 2.5rem;
+    line-height: 1;
+  }
 }
 </style>

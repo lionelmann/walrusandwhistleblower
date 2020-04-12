@@ -11,8 +11,6 @@
             The Walrus and the Whistleblower is her first feature film. She went back to the rust belt to make it.
           </p>
         </div>
-      </div>
-      <div class="grid-inner">
         <div class="content">
           <h3>Frederic Bohbot</h3>
           <small>Producer, BUNBURY FILMS</small>
@@ -39,6 +37,7 @@ export default {};
 .grid-inner {
   display: grid;
   grid-template-columns: 1fr;
+  background-color: #ffd621;
 }
 
 img {
@@ -71,14 +70,14 @@ h3 {
 .bg-nat {
   background: url("~assets/images/bio_nat.jpg") no-repeat;
   background-size: cover;
-  background-position: 0 50%;
+  background-position: 50% 0%;
   min-height: 600px;
 }
 
 .bg-fred {
   background: url("~assets/images/bio_fred.jpg") no-repeat;
   background-size: cover;
-  background-position: 0 50%;
+  background-position: 50% 0%;
   min-height: 600px;
 }
 
@@ -86,7 +85,6 @@ h3 {
   .grid-inner {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: #ffd621;
   }
 }
 </style>

@@ -73,10 +73,38 @@
 
 /* Base Font */
 body {
-    font: normal normal 16px/1.4 'GTWalsheim';
+    font: normal normal 18px/1.4 'GTWalsheim';
     color: rbga(0,0,0, 1);
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
   }
+
+h1 {
+  font-size: 5.202rem;
+}
+
+h2 {
+  font-size: 3.653rem
+}
+
+h3 {
+  font-size: 1.602rem;
+}
+
+h4 {
+  font-size: 1.266rem;
+}
+
+h5 {
+  font-size: 1.125rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+small {
+  font-size: 0.889rem;
+}

@@ -51,7 +51,8 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    { src: '~plugins/ga.js', mode: 'client' }
+    { src: '~plugins/ga.js', mode: 'client' },
+    { src: `~plugins/vimeo-player`, ssr: false }
   ],
 
   /*
@@ -88,6 +89,9 @@ export default {
     /*
     ** You can extend webpack config here
     */
+    vendor: [
+      'vue-vimeo-player'
+    ],
     extend(config, ctx) {
     }
   }

@@ -1,9 +1,13 @@
 <template>
   <section>
     <header class="container">
-      <p>
+      <p class="presents">
         <span class="uc">Bunbury Films Presents</span>
-        <span class="lc">in assocation with</span>
+      </p>
+
+      <p class="association">
+        <span class="lc">in association with</span>
+        <br />
         <em>
           <b>documentary</b>
         </em>
@@ -30,8 +34,19 @@ section {
 }
 
 header {
-  display: flex;
-  padding: 1rem 1rem 0 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  align-items: center;
+  padding: 1rem 2.5rem;
+}
+
+header .presents {
+  grid-column: 1;
+}
+
+header .association {
+  grid-column: 3;
 }
 
 header p {
@@ -41,13 +56,14 @@ header p {
 
 .uc {
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 200;
   font-size: 1.1rem;
 }
 
 .lc {
   text-transform: lowercase;
   font-size: 0.8rem;
+  font-weight: 200;
 }
 
 /* Tablet and Desktop */
