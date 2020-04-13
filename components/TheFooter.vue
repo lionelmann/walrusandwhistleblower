@@ -23,7 +23,7 @@ export default {
 
 <style scoped>
 footer {
-  background-color: rgb(49, 118, 134);
+  background-color: rgba(49, 118, 134, 1);
   padding: 2.5rem;
 }
 
