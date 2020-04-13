@@ -1,11 +1,11 @@
 <template>
-  <transition>
-    <main>
-      <v-header />
+  <main>
+    <v-header />
+    <transition name="fade">
       <nuxt />
-      <v-footer />
-    </main>
-  </transition>
+    </transition>
+    <v-footer />
+  </main>
 </template>
 
 <script>
@@ -44,6 +44,14 @@ p {
 
 :focus {
   outline: none;
+}
+
+.fade-enter-active {
+  transition: opacity 1s;
+}
+
+.fade-enter {
+  opacity: 0;
 }
 
 h1 {
