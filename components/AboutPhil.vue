@@ -41,7 +41,7 @@ section {
 }
 
 .bg {
-  background: url("~assets/images/bg_phil.webp") no-repeat;
+  background: url("~assets/images/bg_phil.jpg") no-repeat;
   background-position: top;
   background-size: cover;
   height: 400px;
