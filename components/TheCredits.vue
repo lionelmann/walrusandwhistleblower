@@ -54,12 +54,13 @@
           <b>Phil Demers</b>
         </li>
         <li>
-          Clutch, PR
+          Publicity
           <br />
-          <b>Daniela Kelloway</b>
+          <b>Daniela Kelloway (Clutch, PR)</b>
         </li>
         <li>
-          CBC Production Executive, documentary Channel
+          CBC Production Executive,
+          <em>documentary</em> Channel
           <br />
           <b>Jordana Ross</b>
         </li>
@@ -87,7 +88,7 @@ section {
   background: url("~assets/images/bg_credit.jpg") no-repeat;
   background-position: 50 100;
   background-size: cover;
-  min-height: 450px;
+  min-height: 500px;
 }
 
 h2 {

@@ -21,7 +21,9 @@
             <em>asshole</em>.
           </p>
         </blockquote>
-        <p>The Walrus and the Whistleblower is a personal tale that plays out against the swell of a paradigm shift in our relationship with animals. At its heart are questions of compassion for others, humans and animals alike, the nuances of all our stories, and the hills we are willing to die on.</p>
+        <p>
+          <b>The Walrus and the Whistleblower</b> is a personal tale that plays out against the swell of a paradigm shift in our relationship with animals. At its heart are questions of compassion for others, humans and animals alike, the nuances of all our stories, and the hills we are willing to die on.
+        </p>
       </div>
     </article>
     <div class="bg"></div>

@@ -4,7 +4,7 @@
       <h2>Director's Statement</h2>
       <div class="two-columns">
         <p>
-          <b>Phil is my brother’s best friend.</b> When we were growing up, they smoked pot in my parents’ backyard and squeaked through high school. Phil was always a smart ass with a quick tongue, but there was no indication he would later hone a voice on Twitter so visceral it would attract celebrities and affect the course of legislation.
+          <b>Phil is a childhood acquaintance.</b> When we were growing up, he and my brother smoked pot in my parents’ backyard and squeaked through high school. Phil was always a smart ass with a quick tongue, but there was no indication he would later hone a voice on Twitter so visceral it would attract celebrities and affect the course of legislation.
         </p>
         <p>As a journalist and storyteller, I have been watching his story roll out online for over a decade. I was working as a producer at the CBC when I first saw him make headlines as a mother figure to a walrus named Smooshi. He was working as an animal trainer at MarineLand, a giant amusement park in our hometown’s backyard, a place my parents loved to take me as a kid.</p>
 

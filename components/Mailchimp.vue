@@ -1,7 +1,7 @@
 <template>
   <div>
     <!--<h4>Subscribe</h4>-->
-    <p>Sign up with your email address to receive news and updates.</p>
+    <p>Sign up to get news and updates, and to be notified of a screening near you.</p>
     <!-- Begin Mailchimp Signup Form -->
     <div id="mc_embed_signup">
       <form
