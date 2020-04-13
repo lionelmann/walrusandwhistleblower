@@ -9,7 +9,7 @@
         <a href="tel:416 319-3511">416 319-3511</a>
         <br />
         <b>General contact:</b>
-        <a href="mailto:walrusandwhistleblower@gmail.com">walrusandwhistleblower@gmail.com</a>
+        <a href="mailto:walrusandwhistleblower@gmail.com">Email</a>
       </p>
     </div>
   </section>
