@@ -19,6 +19,7 @@
       <a href="#">
         <img src="~assets/images/logo_bunbury.jpg" alt />
       </a>
+      <a href="https://forms.gle/Gqn6tSL8AyApcwcA7" target="_blank" class="press">Press Room</a>
       <div class="badge">
         <div id="wcb" class="wcb carbonbadge"></div>
       </div>
@@ -52,6 +53,11 @@ img {
 
 img:hover {
   opacity: 1;
+}
+
+a.press {
+  color: white;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 1020px) {
