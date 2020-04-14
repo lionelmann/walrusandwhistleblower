@@ -71,8 +71,8 @@
         <a href="mailto:daniela@clutchpr.com">daniela@clutchpr.com</a>,
         <a href="tel:+14163193511">416 319-3511</a>
         <br />
-        <b>General contact:</b>
         <br />
+        <b>General contact:</b>
         <a href="mailto:walrusandwhistleblower@gmail.com">Email</a>
       </p>
     </div>
