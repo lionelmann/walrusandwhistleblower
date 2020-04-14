@@ -74,6 +74,9 @@
         <br />
         <b>General contact:</b>
         <a href="mailto:walrusandwhistleblower@gmail.com">Email</a>
+        <br />
+        <b>Press kit:</b>
+        <a href="https://forms.gle/Gqn6tSL8AyApcwcA7" target="_blank" class="press">Download</a>
       </p>
     </div>
   </section>
