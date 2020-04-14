@@ -69,8 +69,7 @@ input[type="submit"] {
   color: #ffd51c;
   height: 50px;
   padding: 0 20px;
-  line-height: 48px;
-  font-size: 1.2rem;
+  font: normal 700 1.2rem/1 "GTWalsheim";
   width: 250px;
   transition: border 0.3s;
 }
@@ -81,11 +80,9 @@ input[type="email"]:focus {
 
 input[type="submit"] {
   text-transform: uppercase;
-  font-weight: 600;
   cursor: pointer;
   border: 2px solid rgba(255, 213, 28, 1);
   transition: background 0.3s;
-  margin: 5px 0px 0 0;
 }
 
 input[type="submit"]:hover {
@@ -133,7 +130,6 @@ p {
     height: 50px;
     padding: 0 20px;
     line-height: 48px;
-    font-size: 1.2rem;
     transition: border 0.3s;
     margin: 0 5px 0 0;
     width: auto;
