@@ -1,10 +1,19 @@
 <template>
   <section>
     <div class="grid">
-      <p>A documentary project comprised of a feature film and an episode of CBC's The Nature of Things, each exploring the public discussion on marine mammal captivity from a different lens.</p>
+      <p>
+        A documentary project comprised of a feature film and an episode of
+        <br />CBC's
+        <em>The Nature of Things</em>, each exploring the public discussion on marine mammal captivity from a different lens.
+      </p>
       <div>
         <!--<h4>Subscribe</h4>-->
-        <p>Sign up to get news and updates, and to be notified of a screening near you.</p>
+        <p>
+          Sign up to get
+          <b>news</b> and
+          <b>updates</b>, and to be notified of a
+          <b>screening</b> near you.
+        </p>
         <!-- Begin Mailchimp Signup Form -->
         <div id="mc_embed_signup">
           <form
@@ -56,12 +65,14 @@
         <!--End mc_embed_signup-->
       </div>
       <p>
-        <b>Press inquiries:</b> Clutch, Daniela Kelloway
+        <b>Press inquiries:</b>
+        <br />Clutch, Daniela Kelloway
         <br />
         <a href="mailto:daniela@clutchpr.com">daniela@clutchpr.com</a>,
         <a href="tel:+14163193511">416 319-3511</a>
         <br />
         <b>General contact:</b>
+        <br />
         <a href="mailto:walrusandwhistleblower@gmail.com">Email</a>
       </p>
     </div>
