@@ -27,10 +27,44 @@
     </div>
     <div class="laurels">
       <p>
-        World premiere, Hot Docs at Home
+        Theatrical and drive-in screening schedule (more coming soon):
         <br />
-        <b>May 28, 2020, 8pm</b>
-        <br />CBC Television and CBC Gem
+        <br />
+        <b>
+          Sept 11 - 15 Ottawa,
+          <a
+            href="https://www.bytowne.ca/movie/the-walrus-and-the-whistleblower"
+            target="_blank"
+          >Bytowne Cinema</a>
+        </b>
+        <br />
+        <b>
+          Sept 12 - 15 Waterloo,
+          <a
+            href="https://www.princesscinemas.com/movie/the-walrus-and-the-whistleblower"
+            target="_blank"
+          >Princess Cinema</a>
+        </b>
+        <br />
+        <b>
+          Sept 11 - 16 Hamilton,
+          <a
+            href="https://playhousecinema.ca/movie/the-walrus-and-the-whistleblower"
+            target="_blank"
+          >Playhouse Cinema</a>
+        </b>
+        <br />
+        <b>
+          Sept 11 + 14 Vancouver,
+          <a
+            href="http://riotheatre.ca/movie/the-walrus-and-the-whistleblower/"
+            target="_blank"
+          >Rio Theatre</a>
+        </b>
+        <br />
+        <b>Sept 15 Barrie, Sunset Drive-In</b>
+        <br />
+        <b>Sept 22 London, Mustang Drive-In</b>
       </p>
       <img src="~assets/images/laurel.svg" alt />
       <!--<img class="hd20" src="~assets/images/laurel.svg" alt />-->
@@ -134,6 +168,17 @@ h3 {
 .laurels p {
   color: rgba(255, 255, 255, 1);
   font-size: 1rem;
+  text-align: left;
+}
+
+.laurels p a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.laurels p a:hover {
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
 }
 
 @-webkit-keyframes text-shadow-pop-br {
