@@ -169,6 +169,7 @@ h3 {
   color: rgba(255, 255, 255, 1);
   font-size: 1rem;
   text-align: left;
+  padding: 0 20px;
 }
 
 .laurels p a {
@@ -251,6 +252,7 @@ h3 {
   .laurels p {
     color: rgba(255, 255, 255, 1);
     font-size: 1.2rem;
+    padding: 0;
   }
 }
 
