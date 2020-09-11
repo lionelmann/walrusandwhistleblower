@@ -27,7 +27,7 @@
     </div>
     <div class="laurels">
       <p>
-        Theatrical and drive-in screening schedule (more coming soon):
+        Theatrical and drive-in screening schedule:
         <br />
         <br />
         <b>
