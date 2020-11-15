@@ -1,6 +1,6 @@
 <template>
   <main>
-    <v-header />
+    <!--<v-header />-->
     <transition name="fade">
       <nuxt />
     </transition>

@@ -6,8 +6,7 @@
         <br />Walrus
         <br />
         <span>and the</span>
-        <br />Whistle
-        <br />Blower
+        <br />Whistle <br />Blower
       </h1>
       <h3>A Film By Nathalie Bibeau</h3>
       <button class="button" @click="showModal = true">Watch Trailer</button>
@@ -26,48 +25,7 @@
       </modal>
     </div>
     <div class="laurels">
-      <p>
-        Theatrical and drive-in screening schedule:
-        <br />
-        <br />
-        <b>
-          Sept 11 - 15 Ottawa,
-          <a
-            href="https://www.bytowne.ca/movie/the-walrus-and-the-whistleblower"
-            target="_blank"
-          >Bytowne Cinema</a>
-        </b>
-        <br />
-        <b>
-          Sept 12 - 15 Waterloo,
-          <a
-            href="https://www.princesscinemas.com/movie/the-walrus-and-the-whistleblower"
-            target="_blank"
-          >Princess Cinema</a>
-        </b>
-        <br />
-        <b>
-          Sept 11 - 16 Hamilton,
-          <a
-            href="https://playhousecinema.ca/movie/the-walrus-and-the-whistleblower"
-            target="_blank"
-          >Playhouse Cinema</a>
-        </b>
-        <br />
-        <b>
-          Sept 11 + 14 Vancouver,
-          <a
-            href="http://riotheatre.ca/movie/the-walrus-and-the-whistleblower/"
-            target="_blank"
-          >Rio Theatre</a>
-        </b>
-        <br />
-        <b>Sept 15 Barrie, Sunset Drive-In</b>
-        <br />
-        <b>Sept 22 London, Mustang Drive-In</b>
-      </p>
       <img src="~assets/images/laurel.svg" alt />
-      <!--<img class="hd20" src="~assets/images/laurel.svg" alt />-->
     </div>
   </section>
 </template>
