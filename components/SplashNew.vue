@@ -1,53 +1,112 @@
 <template>
-  <section class="main"></section>
+  <section class="main">
+    <div class="laurels">
+      <img src="~assets/images/laurels/HD20_rog_aud_top_five_BLACK.png" />
+      <img src="~assets/images/laurels/HSDFF_2020_laurels.png" />
+      <img src="~assets/images/laurels/Innsbruck_laurels.png" />
+      <img src="~assets/images/laurels/DOXA2020_officialselection.png" />
+      <img src="~assets/images/laurels/fridayharbor_laurels.png" />
+      <img src="~assets/images/laurels/forestcity_bestdoc.png" />
+      <img src="~assets/images/laurels/melbourne_laurels.png" />
+      <img src="~assets/images/laurels/calgary_laurels.png" />
+      <img src="~assets/images/laurels/buffalo_laurels.png" />
+      <img
+        src="~assets/images/laurels/FIN_Stream-2020-Laurels-Official_Selection.png"
+      />
+      <img src="~assets/images/laurels/2020-TGHFF-Laurel_eng.png" />
+
+      <img
+        src="~assets/images/laurels/DOCNYC20_Laurels_WinnersCircle_RGBBlack.png"
+      />
+      <br />
+      <img src="~assets/images/laurels/HD20_aud_award.png" />
+    </div>
+    <div>
+      <h3><span>A Film By</span> <br />Nathalie Bibeau</h3>
+      <h1>
+        <span>The</span>
+        <br />Walrus
+        <br />
+        <span>and the</span>
+        <br />Whistle <br />Blower
+      </h1>
+      <button class="button" @click="showModal = true">Watch Trailer</button>
+    </div>
+    <modal v-if="showModal" @close="showModal = false">
+      <div slot="body">
+        <div style="padding:56.25% 0 0 0;position:relative;">
+          <iframe
+            src="https://player.vimeo.com/video/395205887?title=0&byline=0&portrait=0&autoplay=1"
+            style="position:absolute;top:0;left:0;width:100%;height:100%;"
+            frameborder="0"
+            allow="autoplay; fullscreen"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </modal>
+  </section>
 </template>
 
 <script>
-export default {};
+import Modal from "@/components/BaseModal.vue";
+export default {
+  components: {
+    Modal
+  },
+  data() {
+    return {
+      showModal: false
+    };
+  }
+};
 </script>
 
 <style scoped>
 /* Mobile First */
 
 section {
-  background: url("~assets/images/poster-min.jpg") no-repeat;
-  background-position: top;
-  background-size: 100% 700px;
-  height: 700px;
+  background: url("~assets/images/poster-rsz.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 2000px;
   width: 100%;
 }
 
 .main {
   display: grid;
   grid-template-columns: 1fr;
-  align-items: center;
+  /*grid-template-rows: 370px auto;*/
+  grid-template-rows: 190px auto;
   text-align: center;
-  padding: 7rem 0 0 0;
+  padding-top: 70px;
 }
 
 h1 {
-  color: rgba(50, 118, 134, 1);
-  font-size: 3rem;
-  line-height: 1;
-  font-weight: 900;
+  color: rgba(237, 27, 36, 1);
+  font: normal normal 5rem/1 "Impact";
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 1rem;
+  margin: 30px 0;
 }
 
 h1 span {
-  font-size: 1rem;
+  color: black;
+  font-size: 1.8rem;
   font-weight: 300;
   display: block;
-  margin-bottom: -45px;
+  margin-bottom: -80px;
 }
 
 h3 {
-  color: rgba(255, 255, 255, 1);
-  font-size: 1rem;
-  font-weight: 500;
+  color: black;
+  font: normal 100 2rem/1.1 "Impact";
   text-transform: uppercase;
   text-align: center;
+}
+
+h3 span {
+  font: normal 100 1.6rem/1 "Impact";
 }
 
 .button {
@@ -73,131 +132,42 @@ h3 {
 }
 
 .laurels {
-  display: flex;
-  flex-direction: column;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
 .laurels img {
-  display: block;
-  padding: 0;
-  margin: 1rem 0 0 0;
+  display: none;
+  padding: 15px;
   width: auto;
-  height: 40px;
+  height: 90px;
 }
 
-.laurels p {
-  color: rgba(255, 255, 255, 1);
-  font-size: 1rem;
-  text-align: left;
-  padding: 0 20px;
+.laurels img:last-child {
+  display: inline-block;
+  height: 120px;
 }
 
-.laurels p a {
-  color: white;
-  text-decoration: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-}
-
-.laurels p a:hover {
-  border-bottom: 1px solid rgba(255, 255, 255, 1);
-}
-
-@-webkit-keyframes text-shadow-pop-br {
-  0% {
-    text-shadow: 0 0 rgba(255, 255, 255, 0.6), 0 0 rgba(255, 255, 255, 0.6);
-    -webkit-transform: translateX(0) translateY(0);
-    transform: translateX(0) translateY(0);
-  }
-  100% {
-    text-shadow: 1px 1px rgba(255, 255, 255, 0.5),
-      2px 2px rgba(255, 255, 255, 0.6);
-    -webkit-transform: translateX(-2px) translateY(-2px);
-    transform: translateX(-1px) translateY(-1px);
-  }
-}
-@keyframes text-shadow-pop-br {
-  0% {
-    text-shadow: 0 0 rgba(255, 255, 255, 0.6), 0 0 rgba(255, 255, 255, 0.6);
-    -webkit-transform: translateX(0) translateY(0);
-    transform: translateX(0) translateY(0);
-  }
-  100% {
-    text-shadow: 1px 1px rgba(255, 255, 255, 0.6),
-      2px 2px rgba(255, 255, 255, 0.6);
-    -webkit-transform: translateX(-2px) translateY(-2px);
-    transform: translateX(-2px) translateY(-2px);
-  }
-}
-
-.text-shadow-pop-br {
-  -webkit-animation: text-shadow-pop-br 4s both;
-  animation: text-shadow-pop-br 4s both;
-}
-
-@media screen and (min-width: 770px) {
+@media screen and (min-width: 1024px) {
   .main {
-    grid-template-columns: repeat(3, 1fr);
-    padding: 2.5rem;
-  }
-
-  .main .title {
-    grid-column: 1;
-  }
-
-  .main .laurels {
-    grid-column: 3;
-  }
-
-  h1 {
-    font-size: 5.202rem;
-    line-height: 1;
-  }
-
-  h1 span {
-    font-size: 1.266rem;
-    margin-bottom: -75px;
-    text-shadow: 1px 1px rgba(255, 255, 255, 0.4);
-  }
-
-  h3 {
-    font-size: 1.602rem;
+    grid-template-rows: 370px auto;
   }
 
   .laurels img {
-    margin: 1rem 0 0 0;
+    display: inline-block;
+    padding: 15px;
     width: auto;
-    height: 100px;
+    height: 90px;
   }
 
-  .laurels p {
-    color: rgba(255, 255, 255, 1);
-    font-size: 1.2rem;
-    padding: 0;
-  }
-}
-
-@media screen and (min-width: 1420px) {
   h1 {
-    font-size: 6rem;
-    line-height: 1;
-  }
-}
-
-@media screen and (min-width: 1720px) {
-  h1 {
-    font-size: 8rem;
+    font-size: 8.202rem;
     line-height: 1;
   }
 
   h1 span {
-    font-weight: 300;
-    font-size: 4.2rem;
-    margin-bottom: -95px;
-  }
-
-  h3 {
-    font-size: 1.4rem;
-    letter-spacing: 1.1px;
+    font-size: 3.266rem;
+    margin-bottom: -125px;
   }
 }
 </style>
