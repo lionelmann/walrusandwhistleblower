@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="grid">
-      <h2>Theatrical & drive-in screenings</h2>
+      <h2>WATCH THE FILM</h2>
       <h3>Québec</h3>
 
       <p>
@@ -11,13 +11,14 @@
         >
       </p>
 
-      <h3>Canada - AVAILABLE NOVEMBER 24th ACROSS CANADA!</h3>
+      <h3>Canada</h3>
       <p>
+        AVAILABLE NOVEMBER 24th ACROSS CANADA!<br />
         Pre-order the film on
         <a href="https://apple.co/360KWdn" target="_blank">iTunes</a>
       </p>
 
-      <h3>United States - AVAILABLE NOVEMBER 24th ACROSS THE U.S.!</h3>
+      <h3>United States</h3>
       <p>
         AVAILABLE TO WATCH NOW: TICKETS LIMITED!<br />
         <a
@@ -26,7 +27,10 @@
           >DOC NYC Film Festival</a
         >
       </p>
+      <br />
       <p>
+        AVAILABLE NOVEMBER 24th ACROSS THE U.S.!<br />
+
         Pre-order the film on
         <a
           href="https://apple.co/3k5XXrphttps://trailers.apple.com/trailers/independent/the-walrus-and-the-whistleblower/"
