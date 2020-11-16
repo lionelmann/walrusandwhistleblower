@@ -1,32 +1,40 @@
 <template>
-  <section>
-    <div class="grid">
-      <p>
-        A documentary project comprised of a feature film and an episode of
-        <br />CBC's
-        <em>The Nature of Things</em>, each exploring the public discussion on marine mammal captivity from a different lens.
-      </p>
-      <div>
-        <!--<h4>Subscribe</h4>-->
+  <div>
+    <div class="shoutout-container">
+      <div class="shoutout">
         <p>
-          Sign up to get
-          <b>news</b> and
-          <b>updates</b>, and to be notified of a
-          <b>screening</b> near you.
+          WINNER OF THE 2020 TOP AUDIENCE AWARD AT THE HOT DOCS INTERNATIONAL
+          FILM FESTIVAL
         </p>
-        <!-- Begin Mailchimp Signup Form -->
-        <div id="mc_embed_signup">
-          <form
-            action="https://walrusandwhistleblower.us19.list-manage.com/subscribe/post?u=57f2978c518969af12ab3cd19&amp;id=5994baca88"
-            method="post"
-            id="mc-embedded-subscribe-form"
-            name="mc-embedded-subscribe-form"
-            class="validate"
-            target="_blank"
-            novalidate
-          >
-            <div id="mc_embed_signup_scroll">
-              <!--<div class="mc-field-group">
+      </div>
+    </div>
+    <section>
+      <div class="grid">
+        <p>
+          A documentary project comprised of a feature film and an episode of
+          <br />CBC's <em>The Nature of Things</em>, each exploring the public
+          discussion on marine mammal captivity from a different lens.
+        </p>
+        <div>
+          <!--<h4>Subscribe</h4>-->
+          <p>
+            Sign up to get
+            <b>news</b> and <b>updates</b>, and to be notified of a
+            <b>screening</b> near you.
+          </p>
+          <!-- Begin Mailchimp Signup Form -->
+          <div id="mc_embed_signup">
+            <form
+              action="https://walrusandwhistleblower.us19.list-manage.com/subscribe/post?u=57f2978c518969af12ab3cd19&amp;id=5994baca88"
+              method="post"
+              id="mc-embedded-subscribe-form"
+              name="mc-embedded-subscribe-form"
+              class="validate"
+              target="_blank"
+              novalidate
+            >
+              <div id="mc_embed_signup_scroll">
+                <!--<div class="mc-field-group">
             <input
               type="email"
               value
@@ -36,50 +44,67 @@
               placeholder="Your email"
             />
               </div>-->
-              <div id="mce-responses" class="clear">
-                <div class="response" id="mce-error-response" style="display:none"></div>
-                <div class="response" id="mce-success-response" style="display:none"></div>
+                <div id="mce-responses" class="clear">
+                  <div
+                    class="response"
+                    id="mce-error-response"
+                    style="display:none"
+                  ></div>
+                  <div
+                    class="response"
+                    id="mce-success-response"
+                    style="display:none"
+                  ></div>
+                </div>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div
+                  style="position: absolute; left: -5000px;"
+                  aria-hidden="true"
+                >
+                  <input
+                    type="text"
+                    name="b_57f2978c518969af12ab3cd19_5994baca88"
+                    tabindex="-1"
+                    value
+                  />
+                </div>
+                <div class="clear">
+                  <input
+                    type="submit"
+                    value="Subscribe"
+                    name="subscribe"
+                    id="mc-embedded-subscribe"
+                    class="button"
+                  />
+                </div>
               </div>
-              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-              <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                <input
-                  type="text"
-                  name="b_57f2978c518969af12ab3cd19_5994baca88"
-                  tabindex="-1"
-                  value
-                />
-              </div>
-              <div class="clear">
-                <input
-                  type="submit"
-                  value="Subscribe"
-                  name="subscribe"
-                  id="mc-embedded-subscribe"
-                  class="button"
-                />
-              </div>
-            </div>
-          </form>
-        </div>
+            </form>
+          </div>
 
-        <!--End mc_embed_signup-->
+          <!--End mc_embed_signup-->
+        </div>
+        <p>
+          <b>Press inquiries:</b>
+          <br />Clutch, Daniela Kelloway
+          <br />
+          <a href="mailto:daniela@clutchpr.com">daniela@clutchpr.com</a>,
+          <a href="tel:+14163193511">416 319-3511</a>
+          <br />
+          <br />
+          <b>General contact:</b>
+          <a href="mailto:walrusandwhistleblower@gmail.com">Email</a>
+          <br />
+          <b>Press kit:</b>
+          <a
+            href="https://forms.gle/Gqn6tSL8AyApcwcA7"
+            target="_blank"
+            class="press"
+            >Download</a
+          >
+        </p>
       </div>
-      <p>
-        <b>Press inquiries:</b>
-        <br />Clutch, Daniela Kelloway
-        <br />
-        <a href="mailto:daniela@clutchpr.com">daniela@clutchpr.com</a>,
-        <a href="tel:+14163193511">416 319-3511</a>
-        <br />
-        <br />
-        <b>General contact:</b>
-        <a href="mailto:walrusandwhistleblower@gmail.com">Email</a>
-        <br />
-        <b>Press kit:</b>
-        <a href="https://forms.gle/Gqn6tSL8AyApcwcA7" target="_blank" class="press">Download</a>
-      </p>
-    </div>
-  </section>
+    </section>
+  </div>
 </template>
 
 <script>
@@ -94,6 +119,19 @@ export default {
 <style scoped>
 section {
   background-color: rgba(49, 118, 134, 1);
+}
+
+.shoutout-container {
+  background-color: rgba(237, 27, 36, 1);
+}
+
+.shoutout {
+  color: white;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 1.5rem 3rem 1rem 3rem;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 .grid {
