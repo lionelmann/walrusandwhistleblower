@@ -1,83 +1,18 @@
 <template>
   <section>
     <div>
-      <h2>Credits</h2>
+      <h2>{{ $t("credit_title") }}</h2>
       <ul>
-        <li>
-          Writer, Directer and Producer
+        <li v-for="credit in $t('credits')" :key="credit.role">
+          {{ $t(credit.role) }}
           <br />
-          <b>Nathalie Bibeau</b>
-        </li>
-        <li>
-          Producer
-          <br />
-          <b>Frederic Bohbot</b>
-        </li>
-        <li>
-          Cinematographer
-          <br />
-          <b>Christian Bielz</b>
-        </li>
-        <li>
-          Editor
-          <br />
-          <b>Vincent Guignard</b>
-        </li>
-        <li>
-          Story Consultant
-          <br />
-          <b>Christina Clark</b>
-        </li>
-        <li>
-          Sound recording
-          <br />
-          <b>Tod Van Dyk</b>
-        </li>
-        <li>
-          Original Score
-          <br />
-          <b>Anaïs Larocque</b>
-        </li>
-        <li>
-          With Music By
-          <br />
-          <b>Patrick Watson</b>
-        </li>
-        <li>
-          Sound Design
-          <br />
-          <b>Chris Leon</b>
-        </li>
-        <li>
-          Featuring
-          <br />
-          <b>Phil Demers</b>
-        </li>
-        <li>
-          Publicity
-          <br />
-          <b>Daniela Kelloway (Clutch, PR)</b>
-        </li>
-        <li>
-          CBC Production Executive,
-          <em>documentary</em> Channel
-          <br />
-          <b>Jordana Ross</b>
-        </li>
-        <li>
-          CBC Production Executive, The Nature of Things
-          <br />
-          <b>Sue Dando</b>
+          <b>{{ $t(credit.name) }}</b>
         </li>
       </ul>
     </div>
     <div class="bg"></div>
   </section>
 </template>
-
-<script>
-export default {};
-</script>
 
 <style scoped>
 section {

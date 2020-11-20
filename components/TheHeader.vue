@@ -2,11 +2,11 @@
   <section>
     <header class="container">
       <p class="presents">
-        <span class="uc">Bunbury Films Presents</span>
+        <span class="uc">Bunbury Films {{ $t("header.presents") }}</span>
       </p>
 
       <p class="association">
-        <span class="uc">in association with</span>
+        <span class="uc">{{ $t("header.association") }}</span>
         <br />
         <em>
           <b>documentary</b>
@@ -15,6 +15,23 @@
         <span class="lc">&</span>
         <b>CBC Docs</b>
       </p>
+      <div>
+        <nuxt-link
+          class="toggle"
+          v-if="$i18n.locale !== 'en'"
+          :to="switchLocalePath('en')"
+        >
+          <font-awesome-icon :icon="['fas', 'globe']" /> English
+        </nuxt-link>
+
+        <nuxt-link
+          class="toggle"
+          v-if="$i18n.locale !== 'fr'"
+          :to="switchLocalePath('fr')"
+        >
+          <font-awesome-icon :icon="['fas', 'globe']" /> Français
+        </nuxt-link>
+      </div>
     </header>
   </section>
 </template>
@@ -46,6 +63,15 @@ header p {
   font-size: 1rem;
 }
 
+.toggle {
+  color: white;
+  text-decoration: none;
+}
+
+.toggle:hover {
+  opacity: 0.7;
+}
+
 .uc {
   text-transform: uppercase;
   font-weight: 200;
@@ -74,7 +100,7 @@ header p {
   }
 
   header .association {
-    grid-column: 3;
+    grid-column: 2;
   }
 }
 </style>

@@ -22,15 +22,13 @@
       <img src="~assets/images/laurels/HD20_aud_award.png" />
     </div>
     <div>
-      <h3><span>A Film By</span> <br />Nathalie Bibeau</h3>
-      <h1>
-        <span>The</span>
-        <br />Walrus
-        <br />
-        <span>and the</span>
-        <br />Whistle <br />Blower
-      </h1>
-      <button class="button" @click="showModal = true">Watch Trailer</button>
+      <h3>
+        <span>{{ $t("splash.sub") }}</span> <br />Nathalie Bibeau
+      </h3>
+      <h1 v-html="$t('splash.title')"></h1>
+      <button class="button" @click="showModal = true">
+        {{ $t("splash.watch") }}
+      </button>
     </div>
     <modal v-if="showModal" @close="showModal = false">
       <div slot="body">
@@ -90,13 +88,13 @@ h1 {
   margin: 30px 0;
 }
 
-h1 span {
+/*h1 span {
   color: black;
   font-size: 1.8rem;
   font-weight: 300;
   display: block;
   margin-bottom: -80px;
-}
+}*/
 
 h3 {
   color: black;

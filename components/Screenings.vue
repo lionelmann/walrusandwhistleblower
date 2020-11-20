@@ -1,37 +1,36 @@
 <template>
   <section>
     <div class="grid">
-      <h2>WATCH THE FILM</h2>
+      <h2 v-html="$t('screenings.title')"></h2>
       <h3>Québec</h3>
-
       <p>
-        The film is available NOW for a LIMITED TIME
-        <a href="https://cinemaduparc.com/fr/cinema-en-ligne" target="_blank"
-          >online at the Cinéma du Parc</a
-        >
+        {{ $t("screenings.qc") }}
+        <a href="https://cinemaduparc.com/fr/cinema-en-ligne" target="_blank">{{
+          $t("screenings.qc_link")
+        }}</a>
       </p>
 
       <h3>Canada</h3>
       <p>
-        AVAILABLE NOVEMBER 24th ACROSS CANADA!<br />
-        Pre-order the film on
+        {{ $t("screenings.cn") }}<br />
+        {{ $t("screenings.cn_link") }}
         <a href="https://apple.co/360KWdn" target="_blank">iTunes</a>
       </p>
 
-      <h3>United States</h3>
+      <h3>{{ $t("screenings.us_name") }}</h3>
       <p>
-        AVAILABLE TO WATCH NOW: TICKETS LIMITED!<br />
+        {{ $t("screenings.us_1") }}<br />
         <a
           href="https://www.docnyc.net/film/the-walrus-and-the-whistleblower/"
           target="_blank"
-          >DOC NYC Film Festival</a
+          >{{ $t("screenings.us_1_link") }}</a
         >
       </p>
       <br />
       <p>
-        AVAILABLE NOVEMBER 24th ACROSS THE U.S.!<br />
+        {{ $t("screenings.us_2") }}<br />
 
-        Pre-order the film on
+        {{ $t("screenings.us_2_link") }}
         <a
           href="https://apple.co/3k5XXrphttps://trailers.apple.com/trailers/independent/the-walrus-and-the-whistleblower/"
           >iTunes</a
