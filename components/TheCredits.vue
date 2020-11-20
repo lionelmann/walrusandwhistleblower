@@ -4,9 +4,9 @@
       <h2>{{ $t("credit_title") }}</h2>
       <ul>
         <li v-for="credit in $t('credits')" :key="credit.role">
-          {{ $t(credit.role) }}
+          {{ credit.role }}
           <br />
-          <b>{{ $t(credit.name) }}</b>
+          <b>{{ credit.name }}</b>
         </li>
       </ul>
     </div>

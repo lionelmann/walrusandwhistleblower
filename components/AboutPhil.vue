@@ -3,15 +3,15 @@
     <article>
       <div class="quote"></div>
       <div class="content">
-        <p v-html="$t('about.paragraph_1')"></p>
+        <div v-html="$t('about.paragraph_1')"></div>
         <blockquote>
           <p v-html="$t('about.quote_1')"></p>
         </blockquote>
-        <p v-html="$t('about.paragraph_2')"></p>
+        <div v-html="$t('about.paragraph_2')"></div>
         <blockquote>
           <p v-html="$t('about.quote_2')"></p>
         </blockquote>
-        <p v-html="$t('about.paragraph_3')"></p>
+        <div v-html="$t('about.paragraph_3')"></div>
       </div>
     </article>
     <div class="bg"></div>

@@ -130,19 +130,18 @@ export default {
             name: "Français",
             code: "fr",
             iso: "fr-CA",
-            file: "fr-CA.json"
+            file: "fr-CA.js"
           },
           {
             name: "English",
             code: "en",
             iso: "en-CA",
-            file: "en-CA.json"
+            file: "en-CA.js"
           }
         ],
         lazy: true,
         defaultLocale: "en",
-        langDir: "lang/",
-        silentTranslationWarn: true
+        langDir: "lang/"
       }
     ]
   ],

@@ -3,12 +3,12 @@
     <article>
       <h2 v-html="$t('director.title')"></h2>
       <div class="two-columns">
-        <p v-html="$t('director.section_1')"></p>
+        <div v-html="$t('director.section_1')"></div>
 
         <blockquote>
           <p v-html="$t('director.quote_1')"></p>
         </blockquote>
-        <p v-html="$t('director.section_2')"></p>
+        <div v-html="$t('director.section_2')"></div>
       </div>
     </article>
   </section>
