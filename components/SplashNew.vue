@@ -25,7 +25,15 @@
       <h3>
         <span>{{ $t("splash.sub") }}</span> <br />Nathalie Bibeau
       </h3>
-      <h1 v-html="$t('splash.title')"></h1>
+      <h1>
+        <span>{{ $t("splash.title.span_1") }}</span
+        ><br />{{ $t("splash.title.big_1") }}<br /><span>{{
+          $t("splash.title.span_2")
+        }}</span
+        ><br />{{ $t("splash.title.big_2") }}<br />{{
+          $t("splash.title.big_3")
+        }}
+      </h1>
       <button class="button" @click="showModal = true">
         {{ $t("splash.watch") }}
       </button>
@@ -88,13 +96,13 @@ h1 {
   margin: 30px 0;
 }
 
-/*h1 span {
+h1 span {
   color: black;
   font-size: 1.8rem;
   font-weight: 300;
   display: block;
   margin-bottom: -80px;
-}*/
+}
 
 h3 {
   color: black;

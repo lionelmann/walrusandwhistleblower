@@ -4,8 +4,13 @@ export default {
     association: "IN ASSOCIATION WITH"
   },
   splash: {
-    title:
-      "<span style='color: black;font-size: 1.8rem;font-weight: 300;display: block;margin-bottom: -125px;'>The</span><br />Walrus<br /><span style='color: black;font-size: 1.8rem;font-weight: 300;display: block;margin-bottom: -125px;'>and the</span><br />Whistle <br />Blower",
+    title: {
+      span_1: "The",
+      span_2: "and the",
+      big_1: "Walrus",
+      big_2: "Whistle",
+      big_3: "Blower"
+    },
     sub: "A Film By",
     watch: "Watch Trailer"
   },

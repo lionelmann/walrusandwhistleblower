@@ -4,8 +4,13 @@ export default {
     association: "EN ASSOCIATION AVEC"
   },
   splash: {
-    title:
-      "<span style='color: black;font-size: 1.8rem;font-weight: 300;display: block;margin-bottom: -125px;'>Le</span><br /> morse<br /> <span style='color: black;font-size: 1.8rem;font-weight: 300;display: block;margin-bottom: -125px;'>et le</span><br /> lanceur<br /> d’alerte",
+    title: {
+      span_1: "Le",
+      span_2: "et le",
+      big_1: "morse",
+      big_2: "lanceur",
+      big_3: "d’alerte"
+    },
     sub: "Un film de",
     watch: "Bande-annonce"
   },
