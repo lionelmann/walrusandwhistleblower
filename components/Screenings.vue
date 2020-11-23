@@ -2,14 +2,6 @@
   <section>
     <div class="grid">
       <h2 v-html="$t('screenings.title')"></h2>
-      <h3>Québec</h3>
-      <p>
-        {{ $t("screenings.qc") }}
-        <a href="https://cinemaduparc.com/fr/cinema-en-ligne" target="_blank">{{
-          $t("screenings.qc_link")
-        }}</a>
-      </p>
-
       <h3>Canada</h3>
       <p>
         {{ $t("screenings.cn") }}<br />

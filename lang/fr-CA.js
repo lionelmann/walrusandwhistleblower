@@ -28,8 +28,6 @@ export default {
   },
   screenings: {
     title: "REGARDEZ LE FILM",
-    qc: "Cinéma en ligne",
-    qc_link: "regardez-le ici",
     cn: "DISPONIBLE DÈS LE 24 NOVEMBRE PARTOUT AU Canada",
     cn_link: "Faites votre pré-commande sur",
     us_name: "États Unis",

@@ -28,8 +28,6 @@ export default {
   },
   screenings: {
     title: "WATCH THE FILM",
-    qc: "The film is available NOW for a LIMITED TIME",
-    qc_link: "online at the Cinéma du Parc",
     cn: "AVAILABLE NOVEMBER 24th ACROSS CANADA!",
     cn_link: "Pre-order the film on",
     us_name: "United States",
