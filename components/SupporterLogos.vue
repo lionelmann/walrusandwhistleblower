@@ -1,5 +1,10 @@
 <template>
   <div>
+    <div v-if="$i18n.locale !== 'en'">
+      <p>
+        Aide à la mise en marché et à la promotion fournie par Téléfilm Canada
+      </p>
+    </div>
     <div class="grid">
       <a href="#">
         <img src="~assets/images/logo_doc.svg" alt />
@@ -36,6 +41,7 @@ export default {};
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 30px;
 }
 
 .badge {
@@ -53,6 +59,10 @@ img {
 
 img:hover {
   opacity: 1;
+}
+
+p {
+  color: white;
 }
 
 @media screen and (min-width: 1020px) {
