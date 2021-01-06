@@ -4,28 +4,35 @@
       <h2 v-html="$t('screenings.title')"></h2>
       <h3>Canada</h3>
       <p>
-        {{ $t("screenings.cn") }}<br />
-        {{ $t("screenings.cn_link") }}
-        <a href="https://apple.co/360KWdn" target="_blank">iTunes</a>
+        {{ $t("screenings.available") }}<br />
+        <a href="https://apple.co/360KWdn" target="_blank">iTunes</a><br />
+        <a
+          href="https://tiff.net/events/the-walrus-and-the-whistleblower"
+          target="_blank"
+          >TIFF</a
+        >
       </p>
 
       <h3>{{ $t("screenings.us_name") }}</h3>
       <p>
-        {{ $t("screenings.us_1") }}<br />
+        {{ $t("screenings.available") }}<br />
         <a
-          href="https://www.docnyc.net/film/the-walrus-and-the-whistleblower/"
-          target="_blank"
-          >{{ $t("screenings.us_1_link") }}</a
-        >
-      </p>
-      <br />
-      <p>
-        {{ $t("screenings.us_2") }}<br />
-
-        {{ $t("screenings.us_2_link") }}
+          href="https://www.amazon.com/Walrus-Whistleblower-Phil-Demers/dp/B08KVV475Q/ref=sr_1_1?crid=13U66SWEEICN7&dchild=1&keywords=the+walrus+and+the+whistleblower&qid=1606251550&s=instant-video&sprefix=the+walrus%2Caps%2C194&sr=1-1"
+          >Amazon Prime</a
+        ><br />
         <a
           href="https://apple.co/3k5XXrphttps://trailers.apple.com/trailers/independent/the-walrus-and-the-whistleblower/"
           >iTunes</a
+        >
+      </p>
+
+      <h3>{{ $t("screenings.uk_name") }}</h3>
+      <p>
+        {{ $t("screenings.available") }}<br />
+        <a
+          href="
+https://www.amazon.co.uk/Walrus-Whistleblower-Phil-Demers/dp/B08P65BK7B/ref=sr_1_1?crid=1S23IFZS93UQ5&dchild=1&keywords=walrus+and+the+whistleblower&qid=1609945274&sprefix=walrus+whistleb%2Caps%2C250&sr=8-1"
+          >Amazon Prime</a
         >
       </p>
     </div>

@@ -28,13 +28,10 @@ export default {
   },
   screenings: {
     title: "REGARDEZ LE FILM",
-    cn: "DISPONIBLE DÈS LE 24 NOVEMBRE PARTOUT AU Canada",
-    cn_link: "Faites votre pré-commande sur",
+    available: "DISPONIBLE DÈS MAINTENENT",
+    cn_name: "Canada",
     us_name: "États Unis",
-    us_1: "DISPONIBLE DÈS MAINTENANT : BILLETS LIMITÉS!",
-    us_1_link: "DOC NYC Film Festival",
-    us_2: "DISPONIBLE DÈS LE 24 NOVEMBRE PARTOUT AUX ÉTATS-UNIS",
-    us_2_link: "Faites votre pré-commande sur"
+    uk_name: "United Kingdom"
   },
   about: {
     paragraph_1:

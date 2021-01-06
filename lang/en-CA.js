@@ -28,13 +28,10 @@ export default {
   },
   screenings: {
     title: "WATCH THE FILM",
-    cn: "AVAILABLE NOVEMBER 24th ACROSS CANADA!",
-    cn_link: "Pre-order the film on",
+    available: "AVAILABLE NOW!",
+    cn_name: "Canada",
     us_name: "United States",
-    us_1: "AVAILABLE TO WATCH NOW: TICKETS LIMITED!",
-    us_1_link: "DOC NYC Film Festival",
-    us_2: "AVAILABLE NOVEMBER 24th ACROSS THE U.S.!",
-    us_2_link: "Pre-order the film on"
+    uk_name: "United Kingdom"
   },
   about: {
     paragraph_1:
