@@ -21,7 +21,7 @@
           >Amazon Prime</a
         ><br />
         <a
-          href="https://apple.co/3k5XXrphttps://trailers.apple.com/trailers/independent/the-walrus-and-the-whistleblower/"
+          href="https://trailers.apple.com/trailers/independent/the-walrus-and-the-whistleblower/"
           >iTunes</a
         >
       </p>
