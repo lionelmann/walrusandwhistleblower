@@ -28,10 +28,11 @@ export default {
   },
   screenings: {
     title: "WATCH THE FILM",
-    available: "AVAILABLE NOW!",
+    available: "AVAILABLE NOW",
     cn_name: "Canada",
     us_name: "United States",
-    uk_name: "United Kingdom"
+    uk_name: "United Kingdom",
+    aus_name: "Australia"
   },
   about: {
     paragraph_1:

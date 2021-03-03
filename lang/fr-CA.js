@@ -31,7 +31,8 @@ export default {
     available: "DISPONIBLE DÈS MAINTENENT",
     cn_name: "Canada",
     us_name: "États Unis",
-    uk_name: "United Kingdom"
+    uk_name: "United Kingdom",
+    aus_name: "Australia"
   },
   about: {
     paragraph_1:

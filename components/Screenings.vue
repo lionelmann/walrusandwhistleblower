@@ -15,14 +15,11 @@
 
       <h3>{{ $t("screenings.us_name") }}</h3>
       <p>
-        {{ $t("screenings.available") }}<br />
+        STREAMING March 4 exclusively on
         <a
-          href="https://www.amazon.com/Walrus-Whistleblower-Phil-Demers/dp/B08KVV475Q/ref=sr_1_1?crid=13U66SWEEICN7&dchild=1&keywords=the+walrus+and+the+whistleblower&qid=1606251550&s=instant-video&sprefix=the+walrus%2Caps%2C194&sr=1-1"
-          >Amazon Prime</a
-        ><br />
-        <a
-          href="https://trailers.apple.com/trailers/independent/the-walrus-and-the-whistleblower/"
-          >iTunes</a
+          href="https://www.discoveryplus.com/?xp=walrusandthewhistleblower?xp=walrusandthewhistleblower"
+          target="_blank"
+          >discovery+</a
         >
       </p>
 
@@ -32,7 +29,19 @@
         <a
           href="
 https://www.amazon.co.uk/Walrus-Whistleblower-Phil-Demers/dp/B08P65BK7B/ref=sr_1_1?crid=1S23IFZS93UQ5&dchild=1&keywords=walrus+and+the+whistleblower&qid=1609945274&sprefix=walrus+whistleb%2Caps%2C250&sr=8-1"
+          target="_blank"
           >Amazon Prime</a
+        >
+      </p>
+
+      <h3>{{ $t("screenings.aus_name") }}</h3>
+      <p>
+        {{ $t("screenings.available") }} until March 15th<br />
+        <a
+          href="
+https://watch.eventive.org/transitionsfilmfestival/play/6008f3b33f3eb020e9cb63ba"
+          target="_blank"
+          >Transitions Film Festival</a
         >
       </p>
     </div>
