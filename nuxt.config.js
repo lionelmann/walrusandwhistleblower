@@ -13,14 +13,18 @@ export default {
         hid: "description",
         name: "description",
         content:
-          "A whistleblower is sued for $1.5 million for plotting to steal a walrus and falls down the rabbit hole of a personal quest against the backdrop of a movement to end marine mammal captivity. A film by Nathalie Bibeau."
+          "A whistleblower is sued for $1.5 million for plotting to steal a walrus and falls down the rabbit hole of a personal quest against the backdrop of a movement to end marine mammal captivity."
       },
-      { hid: "twitter:card", name: "twitter:card", content: "summary" },
+      {
+        hid: "twitter:card",
+        name: "twitter:card",
+        content: "summary_large_image"
+      },
       {
         hid: "twitter:site",
         name: "twitter:site",
         content:
-          "A whistleblower is sued for $1.5 million for plotting to steal a walrus and falls down the rabbit hole of a personal quest against the backdrop of a movement to end marine mammal captivity. A film by Nathalie Bibeau."
+          "A whistleblower is sued for $1.5 million for plotting to steal a walrus and falls down the rabbit hole of a personal quest against the backdrop of a movement to end marine mammal captivity."
       },
       {
         hid: "twitter:title",
@@ -31,7 +35,7 @@ export default {
         hid: "twitter:description",
         name: "twitter:description",
         content:
-          "A whistleblower is sued for $1.5 million for plotting to steal a walrus and falls down the rabbit hole of a personal quest against the backdrop of a movement to end marine mammal captivity. A film by Nathalie Bibeau."
+          "A whistleblower is sued for $1.5 million for plotting to steal a walrus and falls down the rabbit hole of a personal quest against the backdrop of a movement to end marine mammal captivity."
       },
       {
         hid: "twitter:creator",
@@ -41,7 +45,7 @@ export default {
       {
         hid: "twitter:image",
         name: "twitter:image",
-        content: "https://walrusandwhistleblower.com/bg_pool_full.jpg"
+        content: "https://walrusandwhistleblower.com/banner_facebook.jpg"
       },
       {
         hid: "og:title",
@@ -65,7 +69,7 @@ export default {
         hid: "og:description",
         property: "og:description",
         content:
-          "A whistleblower is sued for $1.5 million for plotting to steal a walrus and falls down the rabbit hole of a personal quest against the backdrop of a movement to end marine mammal captivity. A film by Nathalie Bibeau."
+          "A whistleblower is sued for $1.5 million for plotting to steal a walrus and falls down the rabbit hole of a personal quest against the backdrop of a movement to end marine mammal captivity."
       },
       {
         hid: "og:site_name",
