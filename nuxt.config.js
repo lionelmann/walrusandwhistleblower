@@ -47,31 +47,31 @@ export default {
       },
       {
         hid: "og:title",
-        name: "og:title",
+        property: "og:title",
         content: "The Walrus and the Whistleblower"
       },
-      { hid: "og:type", name: "og:type", content: "Website" },
+      { hid: "og:type", property: "og:type", content: "Website" },
       {
         hid: "og:url",
-        name: "og:url",
+        property: "og:url",
         content: "https://walrusandwhistleblower.com/"
       },
       {
         hid: "og:image",
-        name: "og:image",
-        content: "https://walrusandwhistleblower.com/bg_pool_full.jpg"
+        property: "og:image",
+        content: "~assets/images/banner_facebook.jpg"
       },
-      { hid: "og:image:width", name: "og:image:width", content: "1200" },
-      { hid: "og:image:height", name: "og:image:height", content: "630" },
+      { hid: "og:image:width", property: "og:image:width", content: "1200" },
+      { hid: "og:image:height", property: "og:image:height", content: "630" },
       {
         hid: "og:description",
-        name: "og:description",
+        property: "og:description",
         content:
           "A whistleblower is sued for $1.5 million for plotting to steal a walrus and falls down the rabbit hole of a personal quest against the backdrop of a movement to end marine mammal captivity. A film by Nathalie Bibeau."
       },
       {
         hid: "og:site_name",
-        name: "og:site_name",
+        property: "og:site_name",
         content: "The Walrus and the Whistleblower"
       }
     ],
