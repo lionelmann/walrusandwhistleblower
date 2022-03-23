@@ -1,8 +1,6 @@
 import pkg from "./package";
 
 export default {
-  mode: "universal",
-
   /*
    ** Headers of the page
    */
@@ -59,7 +57,7 @@ export default {
       {
         hid: "og:image",
         property: "og:image",
-        content: "~assets/images/banner_facebook.jpg"
+        content: "https://walrusandwhistleblower.com/banner_facebook.jpg"
       },
       { hid: "og:image:width", property: "og:image:width", content: "1200" },
       { hid: "og:image:height", property: "og:image:height", content: "630" },
